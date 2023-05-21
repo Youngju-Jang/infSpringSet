@@ -27,7 +27,7 @@ public class TimeTraceAop {
           stopWatch.start();
           
           //메서드가 실행되는 지점
-          Object result = joinPoint.proceed();
+          Object result = (Object) joinPoint.proceed();
           
           //메서드 종료 후
           stopWatch.stop();

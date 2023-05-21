@@ -2,11 +2,9 @@ package hello.springmvc.basic.requestMapping;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController("/mapping/users")
+@RestController
+@RequestMapping("/mapping/users")
 public class MappingClassController {
-     /**
-      * @return
-      */
      @GetMapping
      public String user(){
           return "get users";

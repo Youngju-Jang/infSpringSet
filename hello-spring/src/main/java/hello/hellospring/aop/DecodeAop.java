@@ -26,7 +26,7 @@ public class DecodeAop {
      public void before(JoinPoint joinPoint) throws UnsupportedEncodingException {
           
           //메서드로 들어오는 매개변수들
-          Object[] args = joinPoint.getArgs();
+          Object[] args = (Object[]) joinPoint.getArgs();
           
           for(Object arg : args) {
                if(arg instanceof User)  {
