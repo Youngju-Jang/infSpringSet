@@ -4,3 +4,6 @@
 [submodule "message"]
 	path = message
 	url = https://github.com/Youngju-Jang/message.git
+[submodule "validation"]
+	path = validation
+	url = https://github.com/Youngju-Jang/validation.git
