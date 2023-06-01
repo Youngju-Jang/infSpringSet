@@ -10,3 +10,6 @@
 [submodule "login"]
 	path = login
 	url = https://github.com/Youngju-Jang/login.git
+[submodule "exception"]
+	path = exception
+	url = https://github.com/Youngju-Jang/exception.git
