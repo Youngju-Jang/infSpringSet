@@ -13,3 +13,6 @@
 [submodule "exception"]
 	path = exception
 	url = https://github.com/Youngju-Jang/exception.git
+[submodule "diary"]
+	path = diary
+	url = https://github.com/Youngju-Jang/diary.git
